@@ -273,19 +273,11 @@ section.your-active-class {
 /* ---- Layout Rules ---- */
 /* Laptop Size */
 main {
-    /* background: linear-gradient(
-        0deg, 
-        rgba(136,203,171,1) 0%, 
-        rgba(0,13,60,1) 100%); */
     background-color: var(--pure-white);
 }
 
 .landing_page {
     min-height: 100vh;
-    /* padding-top: 3em; */
-    /* outline: 2px solid red;
-    background-image: url("picture/banner1.jpg"); */
-    
 }
 
 .content {
@@ -308,12 +300,6 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     align-items: top;
 }
-
-/* Tablet Size */
-@media only screen and (max-width: 900px) {
-
-}
-
 
 /* Mobile Size */
 @media only screen and (max-width: 600px) {

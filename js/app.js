@@ -1,24 +1,3 @@
-/**
- * 
- * Manipulating the DOM exercise.
- * Exercise programmatically builds navigation,
- * scrolls to anchors from navigation,
- * and highlights section in viewport upon scrolling.
- * 
- * Dependencies: None
- * 
- * JS Version: ES2015/ES6
- * 
- * JS Standard: ESlint
- * 
-*/
-
-/**
- * Comments should be present at the beginning of each procedure and class.
- * Great to have comments before crucial code sections within the procedure.
-*/
-
-
 // =======================
 // Define Global Variables
 // =======================
@@ -35,8 +14,6 @@ const logo = document.querySelector(".logo");
 const backToTop = document.querySelector("#back-to-top");
 
 const hamburger = document.querySelector("#hamburger-menu");
-
-// const idSections = document.querySelectorAll("sec");
 
 // ====================
 // End Global Variables
@@ -109,9 +86,8 @@ const addActiveClass = (items) => {
             const currentMenu = document.getElementById(`${item.id}_button`);
             const position = item.getBoundingClientRect();
             const windowScreen = window.innerHeight;
-            // console.log(currentMenu);
-            // console.log(position);
-    
+
+            // Check current position of visual viewport
             if (
                 position.top < (windowScreen / 2) && position.bottom > (windowScreen / 2)
             ) {
@@ -157,8 +133,12 @@ scrollOnClick();
 // Set sections as active
 addActiveClass(sections);
 
-// Run back-to-top function
+// Run to-top logo button function
 toTop(logo);
+
+// Run back-to-top button function
 toTop(backToTop);
+
+// Run show back-to-top button when scroll down function
 hideButton(backToTop)
 
