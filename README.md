@@ -6,8 +6,6 @@
 <!-- Describe your project in brief -->
 this project is part of Udacity front end web developer nanodegree program.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)
-
 # Demo-Preview
 
 <!-- Add a demo for your project -->
