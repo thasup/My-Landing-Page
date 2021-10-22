@@ -1,5 +1,5 @@
 <!-- Add banner here -->
-![Luv,my project](/picture/My Landing page.jpg)
+![My project](/picture/My_Landing_page.jpg)
 
 # My-Landing-Page
 
@@ -23,7 +23,6 @@ this project is part of Udacity front end web developer nanodegree program.
 - [Languages](#languages)
 - [Features](#features)
 - [Author](#author)
-- [Footer](#footer)
 
 # Languages
 [(Back to top)](#table-of-contents)
