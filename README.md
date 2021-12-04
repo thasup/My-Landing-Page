@@ -1,5 +1,5 @@
 <!-- Add banner here -->
-![My project](/picture/My_Landing_page.jpg)
+![My project](/picture/preview_project2.jpg)
 
 # My-Landing-Page
 
