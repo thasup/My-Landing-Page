@@ -4,14 +4,16 @@
 # My-Landing-Page
 
 <!-- Describe your project in brief -->
-this project is part of Udacity front end web developer nanodegree program.
+This project is a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
+
+*this project is part of Udacity front end web developer nanodegree program.*
 
 # Demo-Preview
 
 <!-- Add a demo for your project -->
- https://thasup.github.io/My-Landing-Page/
-
 ![Random GIF](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+[Link](https://thasup.github.io/dom-landing-page/)
 
 # Table of contents
 
